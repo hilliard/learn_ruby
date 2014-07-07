@@ -9,7 +9,8 @@ end
 puts "Current Temp: "
 
 current_temp = gets.strip.to_f 
-
+puts "Current Temp: " + current_temp.to_s
+ 
 puts "Celsius or Farenheit? [C/F]"
 orig_temp = gets.strip[0].downcase
 
